@@ -11,5 +11,11 @@
     "url": "x.git"
   },
   "author": "Frank Klomfas",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-coffee": "^3.0.2",
+    "gulp-concat": "^2.6.1",
+    "gulp-util": "^3.0.8"
+  }
 }

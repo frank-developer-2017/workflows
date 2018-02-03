@@ -1,0 +1,3 @@
+alert('Hallo ');
+
+alert('Welt! ');
