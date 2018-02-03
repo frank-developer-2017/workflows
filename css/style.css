@@ -1,4 +1,8 @@
-
+/**
+  *
+  * Core Parteils
+  *
+*/
 * {
   box-sizing: border-box;
 }
@@ -15,13 +19,12 @@ body {
 }
 
 .row {
-  @include flex;
-
+  display: flex;
 }
 
 .infobox {
-  color: $color;
-  background: $bgBoxColor;
+  color: rgb 255, 255, 255;
+  background: #1eff00;
 }
 
 h3 {
