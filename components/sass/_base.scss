@@ -1,0 +1,29 @@
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+.container {
+  width: 100%;
+  max-width: 960px;
+  margin: 0 auto;
+  background: gray;
+}
+
+.row {
+  @include flex;
+
+}
+
+.infobox {
+  color: $color;
+  background: $bgBoxColor;
+}
+
+h3 {
+  font-size: 1.3rem;
+}
